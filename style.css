@@ -1,0 +1,63 @@
+body {
+  font-family: "Roboto mono", sans-serif;
+}
+body p{
+  line-height: 30px;
+}
+
+.nav-articulos_pag {
+  display: flex;
+  margin-bottom:2rem;
+  justify-content: space-between;
+}
+
+.contenedor-indice{
+  text-align: left;
+}
+
+.ul-articulos_pag li {
+  display: block;
+}
+.articulo{
+  margin-top: 10px;
+}
+.articulo p{
+  text-align: justify;
+}
+.articulo h2{
+  text-align: center;
+}
+.articulo figure{
+  text-align:center;
+}
+
+.articulo img{
+margin-top:20px;
+}
+.h1-articulos_pag{
+margin-bottom:5rem;
+}
+
+.info-extra{
+  margin-top:100px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+
+}
+footer p{
+  width: auto;
+  margin: 0;
+  padding:0;
+  margin-left:0px;
+}
+footer h4{
+  margin: 0;
+  padding: 0;
+}
